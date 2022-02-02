@@ -6,11 +6,11 @@ class Navbar extends Component {
     render() {
         return(
             <nav className="NavbarItems">
-                <h1 className="navbar-logo">AAA</h1>
+                <h1 className="navbar-logo">Shoes</h1>
                 <div className="menu-icon">
 
                 </div>
-                <ul>
+                <ul className= "nav-menu">
                     {MenuItems.map((item,index) => {
                         return (
                             <li key={index}>
@@ -26,4 +26,4 @@ class Navbar extends Component {
     }
 }
 
-export default Navbar
+export default Navbar  
