@@ -1,6 +1,6 @@
 .NavbarItems {
-    background: rgb(89, 174, 196);
-    height: 80px;
+    background: #a7304a;
+    min-height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,11 +24,12 @@
 }
 .nav-links {
     color: #fff;
+    font-weight: bold;
     text-decoration: none;
     padding: 0.5rem 0.5rem;
 }
 .nav-links:hover {
-    background-color: rgb(125, 180, 214);
+    background-color: rgb(221, 166, 205);
     border-radius: 20px;
     transition: all 0.3s ease-out;
 }
